@@ -1,6 +1,6 @@
-*{
-    padding: 0;
-    margin: 0;
+body {
+    background-color: black;
+    overflow: hidden;
 }
 
 main {
@@ -12,5 +12,21 @@ main {
 
 main h1 {
     font-size: 50px;
-    color: indianred;
+    color: white;
+}
+
+#main-box {
+    width: 800px;
+    height: 300px;
+    margin-left: 23vw;
+    margin-top: 23vh;
+    display: flex;
+    flex-direction: column;
+
+    background-color: cadetblue;
+}
+
+#main-box>div {
+    width: 800px;
+    height: 300px;
 }

@@ -22,17 +22,17 @@ main h1 {
     margin-top: 35vh;
     width: 75vw;
     height: 150px;
-    border-bottom: 2px solid #2f2f2f;
+    border-bottom: 2px solid indianred;
 }
 
 #people-que>div{
+    display: flex;
     width: 150px;
     height: 150px;
-    margin-left:20px;
+    margin-left: 23px;
     color: indianred;
-    font-size: 20px;
-    font-weight: 800;
-    display: flex;
+    font-size: 23px;
+    font-weight: 900;
 }
 
 #home{
@@ -40,6 +40,6 @@ main h1 {
     height: 80px;
     position: absolute;
     right: 300px;
-    top: 17px;
+    top: 20px;
 
 }
